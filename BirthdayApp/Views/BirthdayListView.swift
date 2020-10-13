@@ -35,7 +35,10 @@ struct BirthDayListView: View {
                     }.padding([.trailing, .bottom], 20)
                     .sheet(isPresented: $addNewPresented, content: {
                         //add new sheet
-                        Text("Add New")
+                        //Text("Add New")
+                        AddNewBirthdayView(addNewPresented: self.$addNewPresented).onDisappear{
+                            self.refreshData()
+                        }
                     })
                 }
                 List{

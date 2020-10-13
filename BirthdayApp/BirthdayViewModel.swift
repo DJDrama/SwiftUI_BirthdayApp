@@ -29,8 +29,9 @@ class BirthdayViewModel{
     }()
     
     var remainingDays: Int {
-        let nextBirthdayComponents = Calendar.current.dateComponents([.day, .month], from: date)
-       // let todayComponent = Calendar.current.dateComponents([.year], from: Date())
+        var nextBirthdayComponents = Calendar.current.dateComponents([.day, .month], from: date)
+        let todayComponent = Calendar.current.dateComponents([.year], from: Date())
+        nextBirthdayComponents.year = todayComponent.year!
         
         var nextBday = Calendar.current.date(from: nextBirthdayComponents)
         if Date() > nextBday! {

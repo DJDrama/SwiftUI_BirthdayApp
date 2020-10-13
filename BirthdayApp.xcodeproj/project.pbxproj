@@ -19,6 +19,8 @@
 		227C1F632535697500DFCE97 /* AddNewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C1F622535697500DFCE97 /* AddNewViewModel.swift */; };
 		227C1F66253569FA00DFCE97 /* AddNewBirthdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C1F65253569FA00DFCE97 /* AddNewBirthdayView.swift */; };
 		227C1F6925356DCB00DFCE97 /* DismissKeyboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C1F6825356DCB00DFCE97 /* DismissKeyboardHelper.swift */; };
+		227C1F6C25357C0400DFCE97 /* UpdateBirthdayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C1F6B25357C0400DFCE97 /* UpdateBirthdayViewModel.swift */; };
+		227C1F6F25357DB000DFCE97 /* UpdateBirthdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C1F6E25357DB000DFCE97 /* UpdateBirthdayView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		227C1F622535697500DFCE97 /* AddNewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewViewModel.swift; sourceTree = "<group>"; };
 		227C1F65253569FA00DFCE97 /* AddNewBirthdayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewBirthdayView.swift; sourceTree = "<group>"; };
 		227C1F6825356DCB00DFCE97 /* DismissKeyboardHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissKeyboardHelper.swift; sourceTree = "<group>"; };
+		227C1F6B25357C0400DFCE97 /* UpdateBirthdayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateBirthdayViewModel.swift; sourceTree = "<group>"; };
+		227C1F6E25357DB000DFCE97 /* UpdateBirthdayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateBirthdayView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +124,7 @@
 				227C1F382535411900DFCE97 /* BirthdayListView.swift */,
 				227C1F5E25355BB900DFCE97 /* BirthdayCell.swift */,
 				227C1F65253569FA00DFCE97 /* AddNewBirthdayView.swift */,
+				227C1F6E25357DB000DFCE97 /* UpdateBirthdayView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -130,6 +135,7 @@
 				227C1F582535508600DFCE97 /* BirthdayViewModel.swift */,
 				227C1F5B253557F200DFCE97 /* BirthdayListviewModel.swift */,
 				227C1F622535697500DFCE97 /* AddNewViewModel.swift */,
+				227C1F6B25357C0400DFCE97 /* UpdateBirthdayViewModel.swift */,
 			);
 			name = ViewModels;
 			sourceTree = "<group>";
@@ -222,7 +228,9 @@
 				227C1F5F25355BB900DFCE97 /* BirthdayCell.swift in Sources */,
 				227C1F5525354C9F00DFCE97 /* DataManager.swift in Sources */,
 				227C1F5225354C0E00DFCE97 /* BirthdayApp.xcdatamodeld in Sources */,
+				227C1F6F25357DB000DFCE97 /* UpdateBirthdayView.swift in Sources */,
 				227C1F5C253557F200DFCE97 /* BirthdayListviewModel.swift in Sources */,
+				227C1F6C25357C0400DFCE97 /* UpdateBirthdayViewModel.swift in Sources */,
 				227C1F372535411900DFCE97 /* BirthdayApp.swift in Sources */,
 				227C1F66253569FA00DFCE97 /* AddNewBirthdayView.swift in Sources */,
 				227C1F592535508600DFCE97 /* BirthdayViewModel.swift in Sources */,

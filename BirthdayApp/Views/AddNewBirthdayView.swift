@@ -21,7 +21,7 @@ struct AddNewBirthdayView: View {
     var body: some View {
         VStack{
             HStack{
-                Text("Add New Birthday")
+                Text(viewModel.titleText)
                     .font(.title)
                 Spacer()
             }

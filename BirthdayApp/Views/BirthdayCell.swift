@@ -52,15 +52,29 @@ struct BirthdayCellView: View {
                     .foregroundColor(.white)
                     .shadow(radius: 4)
                 
-                Text("In \(birthdayVM.remainingDays) days")
-                    .font(.caption)
-                    .bold()
-                    .multilineTextAlignment(.center)
-                    .foregroundColor(.white)
-                    .padding([.horizontal], 10)
-                    .padding([.vertical], 5)
-                    .background(Color.blue)
-                    .clipShape(RoundedRectangle(cornerRadius: 10))
+                if birthdayVM.remainingDays == 0 {
+                    Text("Today!")
+                        .font(.caption)
+                        .bold()
+                        .multilineTextAlignment(.center)
+                        .foregroundColor(.white)
+                        .padding([.horizontal], 10)
+                        .padding([.vertical], 5)
+                        .background(Color.blue)
+                        .clipShape(RoundedRectangle(cornerRadius: 10))
+                } else {
+                    Text("In \(birthdayVM.remainingDays) days")
+                        .font(.caption)
+                        .bold()
+                        .multilineTextAlignment(.center)
+                        .foregroundColor(.white)
+                        .padding([.horizontal], 10)
+                        .padding([.vertical], 5)
+                        .background(Color.blue)
+                        .clipShape(RoundedRectangle(cornerRadius: 10))
+                }
+                
+                
             }
         }.padding()
         .background(Color.black.opacity(0.1))

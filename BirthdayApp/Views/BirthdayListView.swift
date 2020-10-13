@@ -46,7 +46,10 @@ struct BirthDayListView: View {
                         ZStack {
                             BirthdayCellView(birthdayVM: self.birthdayVM.birthdays[idx]).shadow(radius: 10)
                             
-                            NavigationLink(destination: Text("Update Cell")
+                            NavigationLink(destination:
+                                            UpdateBirthdayView(
+                                                bdayVM: self.birthdayVM.birthdays[idx]
+                                            )
                                             .navigationTitle("")
                                             .navigationBarHidden(true))
                             {

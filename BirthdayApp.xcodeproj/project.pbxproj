@@ -14,6 +14,8 @@
 		227C1F5225354C0E00DFCE97 /* BirthdayApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 227C1F5025354C0E00DFCE97 /* BirthdayApp.xcdatamodeld */; };
 		227C1F5525354C9F00DFCE97 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C1F5425354C9F00DFCE97 /* DataManager.swift */; };
 		227C1F592535508600DFCE97 /* BirthdayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C1F582535508600DFCE97 /* BirthdayViewModel.swift */; };
+		227C1F5C253557F200DFCE97 /* BirthdayListviewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C1F5B253557F200DFCE97 /* BirthdayListviewModel.swift */; };
+		227C1F5F25355BB900DFCE97 /* BirthdayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C1F5E25355BB900DFCE97 /* BirthdayCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		227C1F5125354C0E00DFCE97 /* BirthdayApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BirthdayApp.xcdatamodel; sourceTree = "<group>"; };
 		227C1F5425354C9F00DFCE97 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		227C1F582535508600DFCE97 /* BirthdayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayViewModel.swift; sourceTree = "<group>"; };
+		227C1F5B253557F200DFCE97 /* BirthdayListviewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayListviewModel.swift; sourceTree = "<group>"; };
+		227C1F5E25355BB900DFCE97 /* BirthdayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				227C1F382535411900DFCE97 /* BirthdayListView.swift */,
+				227C1F5E25355BB900DFCE97 /* BirthdayCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -115,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				227C1F582535508600DFCE97 /* BirthdayViewModel.swift */,
+				227C1F5B253557F200DFCE97 /* BirthdayListviewModel.swift */,
 			);
 			name = ViewModels;
 			sourceTree = "<group>";
@@ -204,8 +210,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				227C1F392535411900DFCE97 /* BirthdayListView.swift in Sources */,
+				227C1F5F25355BB900DFCE97 /* BirthdayCell.swift in Sources */,
 				227C1F5525354C9F00DFCE97 /* DataManager.swift in Sources */,
 				227C1F5225354C0E00DFCE97 /* BirthdayApp.xcdatamodeld in Sources */,
+				227C1F5C253557F200DFCE97 /* BirthdayListviewModel.swift in Sources */,
 				227C1F372535411900DFCE97 /* BirthdayApp.swift in Sources */,
 				227C1F592535508600DFCE97 /* BirthdayViewModel.swift in Sources */,
 			);
